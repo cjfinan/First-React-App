@@ -11,7 +11,7 @@ import ConditionalRenderingClass from './components/ConditionalRendering/Conditi
 import ConditionalRenderingFunctional from './components/ConditionalRendering/ConditionalRenderingFunctional';
 import NestingComponents from './components/NestingComponents/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsProps/MethodsAsPropsParent';
-import RenderingLists from './components/RenderingLists.js/RenderingLists';
+import RenderingLists from './components/RenderingLists/RenderingLists';
 import Clock from './components/ComponentLifeCycle/Clock';
 import LifeCycleCDM from './components/ComponentLifeCycle/LifeCycleCDM';
 import LifeCylceCDU from './components/ComponentLifeCycle/LifeCylceCDU';
@@ -23,6 +23,11 @@ import HooksCounter from './components/Hooks/HooksCounter';
 import ControlledFormHooks from './components/Hooks/ControlledFormHooks';
 import UseStateWithArrays from './components/Hooks/UseStateWithArrays';
 import UseStateWithObjects from './components/Hooks/UseStateWithObjects';
+import UseEffectCounter from './components/Hooks/UseEffectCounter';
+import UseEffectCounterContainer from './components/Hooks/UseEffectCounterContainer';
+import HTTPRequests from './components/HTTPRequests/HTTPRequests';
+import HTTPPost from './components/HTTPRequests/HTTPPost';
+import HTTPHooks from './components/HTTPRequests/HTTPHooks';
 
 
 
@@ -51,8 +56,13 @@ function App() {
       <SearchBar/>
       <HooksCounter/>
       <ControlledFormHooks/>
-      <UseStateWithArrays/>*/}
+      <UseStateWithArrays/>
       <UseStateWithObjects/>
+      <UseEffectCounter/>
+      <UseEffectCounterContainer/>
+      <HTTPRequests/>
+      <HTTPPost/>*/}
+      <HTTPHooks/>
 
       
 
